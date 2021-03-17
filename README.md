@@ -12,3 +12,6 @@ This script organizes files into directories. I wrote it to accommodate a tool t
 
 `undo_make_directories.py`
 Anticipating the need to undo the action described above, should the tool not work, I also wrote this script which sort-of does the reverse. It identifies a list of directories based on a keyword (e.g. 'IlluminaRun3'), moves all the files out of those directories, and then optionally deletes the empty directories, moves all the files out of those directories, and then (optionally) deletes the empty directories.
+
+`my_modules.py`
+Contains useful functions I've written and use in many of my scripts.
