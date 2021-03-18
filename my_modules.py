@@ -121,6 +121,9 @@ def run_blast(db, fasta, outfile, blastn, maxhits = 10):
     outfile: String
         Specify output file name
 
+    blastn: String
+        Path to blastn command
+
     Returns
     ------
     blast_out: String
@@ -174,7 +177,12 @@ def get_data(filepath, sep, colnames = None):
     else:
         return(pd.read_csv(filepath, sep = sep))
 
+def main():
+    help(my_modules)
 
+
+if __name__ == "__main__":
+    print("This module contains helper functions. Import it to access them.")
 
 
 
