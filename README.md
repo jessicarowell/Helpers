@@ -15,3 +15,6 @@ Anticipating the need to undo the action described above, should the tool not wo
 
 `my_modules.py`
 Contains useful functions I've written and use in many of my scripts.
+
+`loan_calculator.py`
+A very basic loan calculator that allows you to input one extra additional payment (made in month 1) and to add extra monthly payments (applied every month for the lifetime of the loan). Run `python loan_calculatoy.py -h` to see a description of input arguments. Written in about half an hour on python 3.8.10, so not a very sophisticated script but does what I needed.
